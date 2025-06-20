@@ -10,7 +10,6 @@ dependencies = [
   "pygame<3.0,>=2.5",
   "pyopengl==3.1.6",
   "cflib<1.0,>=0.1",
-  "pytest<8.0,>=7.1",
   "jax<1.0,>=0.4",
   "jaxlib<1.0,>=0.4",
   "flax<1.0,>=0.6",
@@ -52,7 +51,7 @@ classifiers = [
 ]
 
 [dependency-groups]
-dev = ["pre-commit<3.0,>=2.20"]
+dev = ["pre-commit<3.0,>=2.20", "pytest"]
 # Linting, testing, ... ########################################################
 [tool.black]
 safe = true
