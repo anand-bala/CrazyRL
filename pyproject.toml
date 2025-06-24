@@ -3,8 +3,8 @@ authors = [{ name = "Florian Felten", email = "florian.felten@uni.lu" }]
 license = { text = "MIT" }
 requires-python = "<3.13,<4.0,>=3.9"
 dependencies = [
-  "gymnasium==0.28.1",
-  "pettingzoo==1.24.0",
+  "gymnasium>=0.28.1",
+  "pettingzoo>=1.24.0",
   "numpy",
   # "torch<2.0,>=1.13",
   "pygame<3.0,>=2.5",
@@ -25,6 +25,7 @@ dependencies = [
   "tqdm<5.0.0,>=4.66.1",
   "pandas<3.0.0,>=2.0.3",
   "expt<1.0.0,>=0.4.2",
+  "typing-extensions>=4.14.0",
 ]
 name = "crazy-rl"
 version = "0.0.1"

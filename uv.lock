@@ -304,6 +304,7 @@ dependencies = [
     { name = "pyopengl" },
     { name = "supersuit" },
     { name = "tqdm" },
+    { name = "typing-extensions" },
 ]
 
 [package.dev-dependencies]
@@ -319,7 +320,7 @@ requires-dist = [
     { name = "distrax", specifier = ">=0.1.5" },
     { name = "expt", specifier = ">=0.4.2,<1.0.0" },
     { name = "flax", specifier = ">=0.6,<1.0" },
-    { name = "gymnasium", specifier = "==0.28.1" },
+    { name = "gymnasium", specifier = ">=0.28.1" },
     { name = "jax", specifier = ">=0.4,<1.0" },
     { name = "jax-dataclasses", specifier = ">=1.5,<2.0" },
     { name = "jaxlib", specifier = ">=0.4,<1.0" },
@@ -329,12 +330,13 @@ requires-dist = [
     { name = "optax", specifier = ">=0.1,<1.0" },
     { name = "orbax-checkpoint", specifier = ">=0.3" },
     { name = "pandas", specifier = ">=2.0.3,<3.0.0" },
-    { name = "pettingzoo", specifier = "==1.24.0" },
+    { name = "pettingzoo", specifier = ">=1.24.0" },
     { name = "pygame", specifier = ">=2.5,<3.0" },
     { name = "pymoo", specifier = ">=0.6,<1.0" },
     { name = "pyopengl", specifier = "==3.1.6" },
     { name = "supersuit", specifier = ">=3.9.0,<4.0.0" },
     { name = "tqdm", specifier = ">=4.66.1,<5.0.0" },
+    { name = "typing-extensions", specifier = ">=4.14.0" },
 ]
 
 [package.metadata.requires-dev]
